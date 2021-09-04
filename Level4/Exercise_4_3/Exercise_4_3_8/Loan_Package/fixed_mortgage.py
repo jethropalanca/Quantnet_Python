@@ -1,0 +1,18 @@
+'''
+This program initializes the FixedMortgage.
+'''
+
+from Exercise_4_3.Exercise_4_3_8.Loan_Package.mortgage_mixin import MortgageMixin
+from Exercise_4_3.Exercise_4_3_8.Loan_Package.loan_types import FixedRateLoan
+
+
+class FixedMortgage(MortgageMixin, FixedRateLoan):
+    def __init__(self, term, rate, notional, asset):
+        '''
+        This initialization function to initialize a FixedMortgage class.
+        :param term:
+        :param rate:
+        :param notional:
+        :param asset:
+        '''
+        super(FixedMortgage, self).__init__(term, rate, notional, asset)

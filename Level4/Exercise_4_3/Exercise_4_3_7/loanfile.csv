@@ -1,0 +1,7 @@
+FixedMortgage,HouseBase,500000.0,300000,0.06,10
+FixedMortgage,PrimaryHome,750000.0,500000,0.07,30
+FixedMortgage,VacationHome,12000000.0,6000000,0.04,50
+autoLoan,Car,50000.0,25000,0.08,5
+autoLoan,Civic,250000.0,200000,0.07,6
+autoLoan,Lexus,300000.0,200000,0.07,7
+autoLoan,Lamborghini,1000000.0,750000,0.03,8
